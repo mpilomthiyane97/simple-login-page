@@ -35,3 +35,20 @@ To get a local copy of the project up and running, follow these steps:
 
 1. Clone this repository:
    git clone https://github.com/mpilomthiyane97/simple-login-page.git
+
+## Usage
+
+You can use this project as a starting point for creating secure and user-friendly login pages in your web applications. Feel free to customize it to meet your specific requirements.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please open an issue or submit a pull request with your proposed changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+
+
+
+
