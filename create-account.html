@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Account</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Create an Account</h2>
+    <form onsubmit="return createAccount()">
+      <div class="form-group">
+        <label for="newUsername">New Username:</label>
+        <input type="text" id="newUsername" required>
+        <span id="newUsernameError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" required>
+        <span id="newPasswordError" class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <button type="submit">Create Account</button>
+      </div>
+      <div id="createAccountMessage" class="message"></div>
+    </form>
+    <div class="form-group">
+      <a href="index.html">Back to Login</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
